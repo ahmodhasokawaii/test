@@ -12,10 +12,11 @@ app.get("/", (req, res) => {
     }
 
     console.log("Visitor IPv4:", userIP);
-    res.send("Your IPv4 is: " + userIP);
+    res.send("ur done for nigga: " + userIP);
 });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
+
 });
